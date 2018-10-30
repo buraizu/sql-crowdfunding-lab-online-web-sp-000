@@ -1,14 +1,14 @@
--- CREATE TABLE projects (
---   id INTEGER PRIMARY KEY,
---   title TEXT,
---   category TEXT,
---   funding_goal REAL,
---   start_date DATE,
---   end_date DATE
--- );
-
-CREATE TABLE users (
+CREATE TABLE projects (
   id INTEGER PRIMARY KEY,
-  name TEXT,
-  age INTEGER,
+  title TEXT,
+  category TEXT,
+  funding_goal REAL,
+  start_date DATE,
+  end_date DATE
 );
+
+-- CREATE TABLE users (
+--   id INTEGER PRIMARY KEY,
+--   name TEXT,
+--   age INTEGER,
+-- );
